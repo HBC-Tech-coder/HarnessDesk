@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a reproducible HarnessDesk packaging or documentation problem
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Legacy Preview is known to fail cold start. Never paste secrets, private prompts, full logs, cookies, or personal data.
+  - type: input
+    id: release
+    attributes:
+      label: Release tag and asset SHA-256
+      placeholder: legacy-preview-0.1.0-rc.6 / SHA-256
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version and architecture
+      placeholder: Windows 11 build 26200, x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Minimal reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed keys, tokens, cookies, one-time codes, private prompts, and personal data.
+          required: true

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "release_track": "legacy-preview",
+  "tag": "legacy-preview-0.1.0-rc.6",
+  "current_harnessdesk_candidate": false,
+  "product_source_published": false,
+  "asset": {
+    "name": "DeepSeek-Harness-Setup-0.1.0-rc.6-x64.exe",
+    "size_bytes": 183666660,
+    "size_mib": 175.16,
+    "sha256": "B16ABD84241A1515C15698BE1B21C391AE520E3FFDC4BFCB7FBC93C9A4F92407",
+    "authenticode_status": "NotSigned"
+  },
+  "upstream_handoff": {
+    "repository": "https://github.com/deepseek-ai/deepseek-harness",
+    "commit": "47f943859bef60e4160492346772ded9b24f765a",
+    "root_package_version": "0.1.0-rc.5",
+    "source_to_binary_reproducibility": "UNVERIFIED"
+  },
+  "audit": {
+    "timestamp": "2026-08-15T15:07:16+08:00",
+    "host": "Windows 11 Pro 64-bit build 26200 x64",
+    "installer_defender": "PASS_0_THREATS",
+    "extracted_tree_defender": "PASS_0_THREATS",
+    "gitleaks_8_30_1_extracted_tree": "PASS_0_FINDINGS",
+    "gitleaks_8_30_1_app_asar": "PASS_0_FINDINGS",
+    "extracted_file_count": 33376,
+    "extracted_reparse_count": 0,
+    "model_live2d_cubism_path_count": 0,
+    "install": "PASS_EXIT_0",
+    "first_cold_start": "FAIL_MISSING_DOT_SLASH_MACHINE_ID_GETMACHINEID",
+    "second_cold_start": "FAIL_MISSING_DOT_SLASH_MACHINE_ID_GETMACHINEID",
+    "loopback_listener_count": 0,
+    "uninstall_exit": "PASS_EXIT_0",
+    "uninstall_process_registry_shortcuts": "PASS_CLEARED",
+    "uninstall_residual_files_after_60_seconds": 17
+  },
+  "updater": {
+    "code_present": true,
+    "bundled_url": "",
+    "effective_status": "DISABLED",
+    "new_harnessdesk_key_published": false,
+    "signed_feed_published": false,
+    "may_be_targeted_by_new_updater": false
+  },
+  "release_flags": {
+    "draft": false,
+    "prerelease": true,
+    "make_latest": false,
+    "known_broken": true,
+    "recommended_for_daily_use": false
+  }
+}

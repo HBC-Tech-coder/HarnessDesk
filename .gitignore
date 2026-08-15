@@ -1,0 +1,41 @@
+# Product source and build outputs are not published in this documentation-only phase.
+node_modules/
+dist/
+build/
+release/
+out/
+coverage/
+*.log
+
+# Installers and archives must be uploaded as reviewed GitHub Release assets, never committed.
+*.exe
+*.msi
+*.msix
+*.appx
+*.zip
+*.7z
+*.rar
+*.blockmap
+latest.yml
+rc.yml
+
+# Secrets and private data
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.private.*
+*.sqlite
+*.sqlite3
+*.db
+user-data/
+logs/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

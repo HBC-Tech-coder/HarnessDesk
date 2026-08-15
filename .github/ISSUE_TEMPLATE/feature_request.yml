@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a future HarnessDesk capability without claiming it already exists
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Security, privacy, compatibility, and licensing boundaries
+    validations:
+      required: true
+  - type: checkboxes
+    id: truth
+    attributes:
+      label: Release-truth confirmation
+      options:
+        - label: I understand this is a proposal, not an available feature.
+          required: true
